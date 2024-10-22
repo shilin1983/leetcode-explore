@@ -1,0 +1,17 @@
+{
+    "require": {
+        "php": "^8.3"
+    },
+    "require-dev": {
+        "pestphp/pest": "^3.4"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    },
+    "autoload": {
+        "classmap": ["src/"],
+        "files": ["src/helpers.php"]
+    }
+}

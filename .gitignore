@@ -1,0 +1,12 @@
+.DS_Store
+.vscode/
+golang/go.*
+golang/vendor/
+php/composer.lock
+php/vendor/
+rust/Cargo.lock
+rust/target/
+typescript/bun.lockb
+typescript/node_modules/
+zig/.zig-cache/
+zig/zig-out/

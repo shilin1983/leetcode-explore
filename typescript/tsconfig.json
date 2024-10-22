@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "allowImportingTsExtensions": true,
+    "baseUrl": ".",
+    "module": "ESNext",
+    "moduleDetection": "force",
+    "moduleResolution": "bundler",
+    "noEmit": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "strictFunctionTypes": true,
+    "strictNullChecks": true,
+    "target": "ESNext",
+    "verbatimModuleSyntax": true,
+    "lib": [
+      "ESNext",
+      "DOM"
+    ],
+    "paths": {
+      "@/*": [
+        "src/*"
+      ]
+    }
+  }
+}
